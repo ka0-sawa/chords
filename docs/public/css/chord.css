@@ -1,0 +1,46 @@
+body{
+    font-family: "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Meiryo, sans-serif;
+    font-size: 16px;
+    color: navy;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+  font-size: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+      display: inline-block;
+      width: 14%; 
+      font-size:16px;
+      text-align: center;
+}
+
+li.selected{
+    background-color: yellow;
+}
+
+table{
+    width:100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: lightgray;
+}
+
+th, td{
+    width: 14%;
+    text-align: center;
+    border: none;
+    padding: 0;
+}
+
